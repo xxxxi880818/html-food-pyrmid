@@ -1,0 +1,81 @@
+body {
+	background-color: #EFEFEF;
+}
+.triangle {
+	display:flex;
+	text-align:center;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	margin: 20px auto;
+	width: 800px;
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.time-input{
+	text-align: center;
+}
+.content {
+	margin-top: 25px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.content .add, .sub {
+	border-radius: 50%;
+	border: 2px solid rgb(231, 225, 225);
+	width: 25px;
+	height:25px;
+	background-color:rgb(228, 168, 168);
+}
+
+.triangle .content .add, .triangle .content .sub {
+	visibility: hidden;
+}
+.triangle :hover .content .add, .triangle :hover .content .sub {
+	visibility: visible;
+}
+.one {
+	background-color: rgb(228, 139, 156);
+	height:80px;
+}
+.one:hover {
+	background-color:rgb(126, 64, 64);
+}
+
+.two {
+	background-color: rgb(241, 160, 62);
+	height: 80px;
+	margin: 10px;
+}
+.two:hover {
+	background-color: rgb(226, 188, 116);
+}
+.three {
+	background-color: rgb(122, 229, 122);
+	height: 80px;
+}
+.three:hover {
+		background-color: rgb(104, 170, 104);
+}
+.four {
+	height: 80px;
+	background-color: rgb(115, 234, 234);
+}
+.four:hover {
+		background-color: rgb(118, 209, 209);
+}
+.five {
+	height: 80px;
+	background-color: rgb(237, 172, 237);
+}
+.five:hover {
+	background-color:rgb(155, 114, 121);
+}
+.six {
+	height: 80px;
+	background-color: rgb(162, 222, 216);
+}
+.six:hover {
+	background-color: rgb(108, 142, 154);
+}
